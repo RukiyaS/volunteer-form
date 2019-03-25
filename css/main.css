@@ -1,0 +1,45 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
+.header {
+  color: #fff;
+  background-color: #70ad55;
+}
+
+.footer {
+  color: #fff;
+  background-color: #70ad55;
+}
+
+.btn {
+  color: #fff;
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+.dr-green {
+  border-color: #6e8c62;
+}
+
+.l-green {
+  color: #70ad55;
+}
+
+hr {
+  margin: 0;
+  border-color: #70ad55;
+  border-width: 1px;
+}
+
+fieldset {
+  border: 0;
+}
+
+input, select {
+  border-color: #6e8c62;
+}
+
+label {
+  border-color: #6e8c62;
+}
