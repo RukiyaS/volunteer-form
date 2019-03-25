@@ -12,49 +12,49 @@
 </head>
 <body>
 
-  <section class="max-length">
+  <section>
 
     <div>
 
-      <header class="header gutter-1-2 pad-t pad-b">
+      <header class="header gutter-1-2 pad-t pad-b-1-2 push">
 
-        <h1 class="push-half pad-t-1-2 nina">Apply to be a tree planter</h1>
-        <p class="giga">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+        <h1 class="push-half">Apply to be a tree planter</h1>
+        <p class="mega bold">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
 
       </header>
 
-      <form action="...">
+      <form class="max-length" action="...">
 
         <div class="grid island-1-2">
 
-          <h2 class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2">Personal details</h2>
+          <h2 class="giga unit xs-1 s-1 m-1 l-1 xl-1 pad-t-1-2 pad-b-1-2">Personal details</h2>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label for="name">Full name</label>
+            <label class="pad-b-1-4" for="name">Full name</label>
             <input class="dr-green" type="text" id="name" required>
-            <p class="italic push-0 milli">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            <p class="italic push-0 micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
 
           </div>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t">
 
-            <label for="nickname">What should we call you?</label>
+            <label class="pad-b-1-4" for="nickname">What should we call you?</label>
             <input class="dr-green" type="text" id="nickname" required>
-            <p class="italic push-0 milli">What all your friends call you, e.g. “Liz”.</p>
+            <p class="italic push-0 micro">What all your friends call you, e.g. “Liz”.</p>
 
           </div>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t">
 
-            <label for="birthdate">Date of birth</label>
-            <input class="dr-green" type="number" id="birthdate" placeholder="yyyy-mm-dd" required>
+            <label class="pad-b-1-4" for="birthdate">Date of birth</label>
+            <input class="dr-green" type="date" id="birthdate" required>
 
           </div>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t">
 
-            <label for="shirt-size">T-shirt size</label>
+            <label class="pad-b-1-4" for="shirt-size">T-shirt size</label>
             <select class="dr-green" id="shirt-size">
-              <option>Select a t-shirt size</option>
+              <option value="">Select a t-shirt size</option>
               <option>Fitted: XS</option>
               <option>Fitted: S</option>
               <option>Fitted: M</option>
@@ -72,14 +72,14 @@
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t">
 
             <label for="email">Email</label>
-            <input class="dr-green" type="text" id="email" required>
+            <input class="dr-green" type="email" id="email" required>
 
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t pad-b">
 
             <label for="phone-number">Phone number<span class="italic l-green"> (optional)</span></label>
-            <input class="dr-green" type="number" id="phone-number">
+            <input class="pad-b-1-4" type="tel" id="phone-number">
 
           </div>
 
@@ -89,25 +89,25 @@
 
         <div class="grid island-1-2">
 
-          <h2 class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t">Address</h2>
+          <h2 class="unit tera xs-1 s-1 m-1 l-1 xl-1 pad-t-2">Address</h2>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4">
 
-            <label for="street-address">Street address</label>
+            <label class="pad-b-1-4" for="street-address">Street address</label>
             <input class="dr-green" type="text" id="street-address">
 
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t">
 
-            <label for="city">City</label>
+            <label class="pad-b-1-4" for="city">City</label>
             <input class="dr-green" type="text" id="city">
 
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t">
 
-            <label for="province">Province</label>
+            <label class="pad-t-1-2 pad-b-1-4" for="province">Province</label>
             <select class="dr-green" multiple id="province" required>
               <option>Select a province</option>
               <option>Alberta</option>
@@ -127,10 +127,10 @@
 
           </div>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t pad-b-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t pad-b">
 
-            <label for="postal-code">Postal code</label>
-            <input class="dr-green" type="text" id="postal-code">
+            <label class="pad-t-1-2 pad-b-1-4" for="postal-code">Postal code</label>
+            <input class="dr-green" type="number" id="postal-code">
 
           </div>
 
@@ -142,53 +142,53 @@
 
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t">
 
-            <h2>What activities are you interested in helping with?</h2>
+            <h2 class="tera pad-t-1-2">What activities are you interested in helping with?</h2>
             <div class="grid pad-b-2">
               <input id="digging" class="unit xs-1" type="checkbox">
-              <label for="digging" class="unit xs-1 pad-b-1-4 giga">Digging holes</label>
+              <label for="digging" class="unit xs-1 pad-b-1-4 kilo">Digging holes</label>
               <input id="dirty" class="unit xs-1" type="checkbox">
-              <label for="dirty" class="unit xs-1 pad-b-1-4 giga">Getting dirty</label>
+              <label for="dirty" class="unit xs-1 pad-b-1-4 kilo">Getting dirty</label>
               <input id="lifting" class="unit xs-1" type="checkbox">
-              <label for="lifting" class="unit xs-1 pad-b-1-4 giga">Lifting heavy objects</label>
+              <label for="lifting" class="unit xs-1 pad-b-1-4 kilo">Lifting heavy objects</label>
               <input id="driving" class="unit xs-1" type="checkbox">
-              <label for="driving" class="unit xs-1 pad-b-1-4 giga">Driving people</label>
+              <label for="driving" class="unit xs-1 pad-b-1-4 kilo">Driving people</label>
               <input id="transporting" class="unit xs-1" type="checkbox">
-              <label for="transporting" class="unit xs-1 pad-b-1-4 giga">Transporting trees</label>
+              <label for="transporting" class="unit xs-1 pad-b-1-4 kilo">Transporting trees</label>
               <input id="photos" class="unit xs-1" type="checkbox">
-              <label for="photos" class="unit xs-1 pad-b-1-4 giga">Taking photos</label>
+              <label for="photos" class="unit xs-1 pad-b-1-4 kilo">Taking photos</label>
               <input id="publishing" class="unit xs-1" type="checkbox">
-              <label for="publishing" class="unit xs-1 pad-b-1-4 giga">Online publishing</label>
+              <label for="publishing" class="unit xs-1 pad-b-1-4 kilo">Online publishing</label>
               <input id="managing" class="unit xs-1" type="checkbox">
-              <label for="managing" class="unit xs-1 pad-b-1-4 giga">Managing people</label>
-           </div>
+              <label for="managing" class="unit xs-1 pad-b-1-4 kilo">Managing people</label>
+            </div>
 
           </div>
 
-          <div class="pad-t unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
 
-            <h2>Do you have any experience with the following?</h2>
+            <h2 class="tera pad-t-1-2">Do you have any experience with the following?</h2>
             <div class="grid pad-b">
               <input id="shovels" class="unit xs-1" type="checkbox">
-              <label for="shovels" class="unit xs-1 pad-b-1-4 giga">Shovels</label>
+              <label for="shovels" class="unit xs-1 pad-b-1-4 kilo">Shovels</label>
               <input id="gps" class="unit xs-1" type="checkbox">
-              <label for="gps" class="unit xs-1 pad-b-1-4 giga">Hand-held GPS</label>
+              <label for="gps" class="unit xs-1 pad-b-1-4 kilo">Hand-held GPS</label>
               <input id="blogging" class="unit xs-1" type="checkbox">
-              <label for="blogging" class="unit xs-1 pad-b-1-4 giga">Writing & blogging</label>
+              <label for="blogging" class="unit xs-1 pad-b-1-4 kilo">Writing & blogging</label>
               <input id="photography" class="unit xs-1" type="checkbox">
-              <label for="photography" class="unit xs-1 pad-b-1-4 giga">Photography</label>
+              <label for="photography" class="unit xs-1 pad-b-1-4 kilo">Photography</label>
               <input id="climbing" class="unit xs-1" type="checkbox">
-              <label for="climbing" class="unit xs-1 pad-b-1-4 giga">Trail & hill climbing</label>
+              <label for="climbing" class="unit xs-1 pad-b-1-4 kilo">Trail & hill climbing</label>
               <input id="craft" class="unit xs-1" type="checkbox">
-              <label for="craft" class="unit xs-1 pad-b-1-4 giga">Bush craft</label>
+              <label for="craft" class="unit xs-1 pad-b-1-4 kilo">Bush craft</label>
               <input id="atv" class="unit xs-1" type="checkbox">
-              <label for="atv" class="unit xs-1 pad-b-1-4 giga">ATVs</label>
+              <label for="atv" class="unit xs-1 pad-b-1-4 kilo">ATVs</label>
               <input id="plant" class="unit xs-1" type="checkbox">
-              <label for="plant" class="unit xs-1 pad-b-1-4 giga">Plant identification</label>
+              <label for="plant" class="unit xs-1 pad-b-1-4 kilo">Plant identification</label>
               <input id="special" class="unit xs-1" type="checkbox">
-              <label for="special" class="unit xs-1 pad-b-1-4 giga">Special event planning</label>
+              <label for="special" class="unit xs-1 pad-b-1-4 kilo">Special event planning</label>
               <input id="speaking" class="unit xs-1" type="checkbox">
-              <label for="speaking" class="unit xs-1 pad-b-1-4 giga">Speaking to groups</label>
-           </div>
+              <label for="speaking" class="unit xs-1 pad-b-1-4 kilo">Speaking to groups</label>
+            </div>
 
           </div>
 
@@ -197,56 +197,52 @@
         <hr>
         <div class="grid island">
 
-          <fieldset>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t">
 
-            <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-              <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t">
+              <legend class="tera bold pad-t">Do you have a valid driver's license?</legend>
+              <input type="radio" name="yes" id="yes">
+              <label for="yes">Yes</label>
+              <input type="radio" name="no" id="no">
+              <label for="no">No</label>
 
-                <legend class="giga bold push-1-2">Do you have a valid driver's license?</legend>
-                <input type="radio" name="yes" id="yes">
-                <label for="yes">Yes</label>
-                <input type="radio" name="no" id="no">
-                <label for="no">No</label>
+            </fieldset>
+          </div>
 
-              </fieldset>
-            </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t">
 
-            <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-              <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t">
+              <legend class="tera bold push-1-2">Do you have a pick-up truck you'd be willing to use?</legend>
+              <input name="radio" type="radio" id="y">
+              <label for="y">Yes</label>
+              <input name="radio" type="radio" id="n">
+              <label for="n">No</label>
 
-                <legend class="giga bold push-1-2">Do you have a pick-up truck you'd be willing to use?</legend>
-                <input name="radio" type="radio" id="y">
-                <label for="y">Yes</label>
-                <input name="radio" type="radio" id="n">
-                <label for="n">No</label>
+            </fieldset>
+          </div>
 
-              </fieldset>
-            </div>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t">
 
-            <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-              <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t">
+              <legend class="tera pad-t pad-b-1-2">Do you have up-to-date first-aid certification?</legend>
+              <input class="dr-green" name="radio" type="radio" id="yess">
+              <label class="dr-green" for="yess">Yes</label>
+              <input name="radio" type="radio" id="noo">
+              <label for="noo">No</label>
 
-                <legend class="pad-t pad-b-1-2">Do you have up-to-date first-aid certification?</legend>
-                <input class="dr-green" name="radio" type="radio" id="yess">
-                <label class="dr-green" for="yess">Yes</label>
-                <input name="radio" type="radio" id="noo">
-                <label for="noo">No</label>
-
-              </fieldset>
-            </div>
-
-          </fieldset>
+            </fieldset>
+          </div>
 
         </div>
 
         <hr>
 
-        <div class="grid gutter-1-2 pad-t pad-b">
+        <div class="grid gutter-1-2 pad-t pad-b-2">
 
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
 
-            <label class="bold pad-b-1-2" for="comments">Please let us know any comments or questions you may have.<span class="italic l-green"> (optional)</span></label>
-            <textarea class="dr-green" id="comments"></textarea>
+            <label class="giga bold pad-t pad-b-1-2" for="comments">Please let us know any comments or questions you may have.<span class="italic l-green"> (optional)</span></label>
+            <textarea class="dr-green pad-t-2 pad-b-2" id="comments"></textarea>
 
           </div>
 
@@ -268,7 +264,7 @@
 
       <footer class="footer island-1-2">
 
-        <p class="push-0">© Tree Hugger International Organization</p>
+        <p class="push-0 pad-t pad-b">© Tree Hugger International Organization</p>
 
       </footer>
 
